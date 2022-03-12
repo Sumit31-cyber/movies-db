@@ -1,6 +1,7 @@
 import { Pressable, StyleSheet } from 'react-native'
 import React, { PureComponent } from 'react'
 import Icon from 'react-native-vector-icons/Ionicons'
+import Colors from '../theme/Colors';
 
 export default class PlayButton extends PureComponent {
     render() {
@@ -10,7 +11,7 @@ export default class PlayButton extends PureComponent {
                 onPress={() => { handlePress() }}
                 style={styles.button}>
                 <Icon
-                    color={"white"}
+                    color={Colors.white}
                     name={'caret-forward-outline'}
                     size={30}
                 />
@@ -28,6 +29,6 @@ const styles = StyleSheet.create({
         width: 55,
         height: 55,
         padding: 10,
-        backgroundColor: "#4481FC"
+        backgroundColor: Colors.primary
     }
 })
