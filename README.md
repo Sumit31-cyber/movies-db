@@ -1,5 +1,5 @@
-# movies-db
-React-native app which shows movie details and ratings
+# Movies-Db
+React-native app which shows movie details and ratings.
 
 
 ### Movies-DB is a react-native application which shows latest movies || web series || tv shows review and start ratings.
